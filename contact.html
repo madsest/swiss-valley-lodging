@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Swiss Valley Lodging | Contact</title>
+        <meta name="author" content="Madi Estis">
+        <meta name="description" content="Swiss Valley Lodging is a getaway resort within the Swiss Alps. Please contact us with any comments, questions or concerns may have!">
+
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+        <link rel="stylesheet" href="https://use.typekit.net/nml1iag.css">
+        
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1><a href="index.html">Swiss Valley Lodging</a> </h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="">Accommodations</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <img src="images/swiss-valley.jpg" alt="image of valley with trees on both sides and snow-capped mountains in the background" width="1440" height="560">
+        </header>
+        <main id="form">
+            <section id="contact">
+                <h2>Contact Us</h2>
+                <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us! Required fields marked with a *</p>
+                <img src="images/swiss-peak.jpg" width="350" height="455" alt="Tall white mountain with trees in the foreground and a river down the center">
+            </section>
+
+            <form action="https://wp.zybooks.com/form-viewer.php" method="POST" target="_blank">
+                <label for="my-name">Full Name<span>*</span></label>
+                <input type="text" name="my-name" id="my-name" required>
+
+                <label for="my-email">Email Address<span>*</span></label>
+                <input type="email" name="my-email" id="my-email" required>
+
+                <label for="my-phone">Phone Number<span>*</span></label>
+                <input type="tel" name="my-phone" id="my-phone" required>
+
+                <fieldset>
+                    <legend>Preferred Contact Method<span>*</span></legend>
+
+                    <input type="radio" name="contact-pref" id="pref-email" checked>
+                    <label for="pref-email">Email</label>
+
+                    <input type="radio" name="contact-pref" id="pref-phone">
+                    <label for="pref-phone">Phone</label>
+               </fieldset>
+                
+                <label for="my-comments">Comments<span>*</span></label>
+                <textarea name="my-comments" id="my-comments"></textarea>
+
+                <input type="submit" name="my-submit" id="my-submit" value="Submit">
+            </form>
+        </main>
+        <footer>
+            <p>Copyright &copy;2023 - Swiss Valley Lodging</p>
+            <p>This site is for educational purposes only</p>
+        </footer>
+    </body>
+</html>
